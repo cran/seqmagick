@@ -1,11 +1,19 @@
-# seqmagick 0.09
+# seqmagick 0.1.2
+
++ suggest instead of import muscle, GenomicAlignments, GenomicRanges, IRanges and Rsamtools (2019-12-18, Wed)
+
+# seqmagick 0.1.1
+
++ cran initial release (2019-12-17, Tue)
+
+# seqmagick 0.0.9
 
 + add examples to function documents (2019-12-11, Wed)
 + change default `type="auto"` for `fa_read` (2019-12-09, Mon)
 
-# seqmagick 0.08
+# seqmagick 0.0.8
 
-+ CRAN release (2019-12-03, Tue)
++ submit to CRAN (2019-12-03, Tue)
 
 # seqmagick 0.0.7
 

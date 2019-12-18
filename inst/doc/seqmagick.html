@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="date" content="2019-12-12" />
+<meta name="date" content="2019-12-18" />
 
 <title>seqmagick: sequence manipulation</title>
 
@@ -142,7 +142,7 @@ code span.ot { color: #007020; }
 <address class="author_afil">
 Department of Bioinformatics, School of Basic Medical Sciences, Southern Medical University<br><a class="author_email" href="mailto:#"><a href="mailto:guangchuangyu@gmail.com" class="email">guangchuangyu@gmail.com</a></a>
 </address>
-<h4 class="date project-date">2019-12-12</h4>
+<h4 class="date project-date">2019-12-18</h4>
 </section>
 
 
@@ -180,8 +180,8 @@ Department of Bioinformatics, School of Basic Medical Sciences, Southern Medical
 ##  [6] &quot;KEYWORDS    .&quot;                                                                  
 ##  [7] &quot;SOURCE      Transmissible gastroenteritis virus&quot;                                
 ##  [8] &quot;  ORGANISM  Transmissible gastroenteritis virus&quot;                                
-##  [9] &quot;            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA&quot;      
-## [10] &quot;            stage; Nidovirales; Coronaviridae; Coronavirinae; Alphacoronavirus.&quot;</code></pre>
+##  [9] &quot;            Viruses; Riboviria; Nidovirales; Cornidovirineae; Coronaviridae;&quot;   
+## [10] &quot;            Orthocoronavirinae; Alphacoronavirus; Tegacovirus.&quot;</code></pre>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">readLines</span>(tmpfa)</span></code></pre></div>
 <pre><code>##  [1] &quot;&gt;AB115403.1 Transmissible gastroenteritis virus ORF 7 gene for protein 7, complete cds, strain:h-5&quot;
 ##  [2] &quot;GTTTGATGACACACAGGTTGAGATAATTGATGAGGTAACGAACTAAACGAGATGCTCGTCCTCCTCCATG&quot;                            
@@ -286,18 +286,18 @@ Department of Bioinformatics, School of Basic Medical Sciences, Southern Medical
 </div>
 <div id="bugsfeature-requests" class="section level1">
 <h1>Bugs/Feature requests</h1>
-<p>If you have any, <a href="https://github.com/GuangchuangYu/seqmagick/issues">let me know</a>. Thx!</p>
+<p>If you have any, <a href="https://github.com/YuLab-SMU/seqmagick/issues">let me know</a>. Thx!</p>
 </div>
 <div id="session-info" class="section level1">
 <h1>Session info</h1>
 <p>Here is the output of <code>sessionInfo()</code> on the system on which this document was compiled:</p>
-<pre><code>## R version 3.6.1 (2019-07-05)
+<pre><code>## R version 3.6.2 (2019-12-12)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Arch Linux
 ## 
 ## Matrix products: default
-## BLAS:   /usr/lib/libblas.so.3.8.0
-## LAPACK: /usr/lib/liblapack.so.3.8.0
+## BLAS:   /usr/lib/libblas.so.3.9.0
+## LAPACK: /usr/lib/liblapack.so.3.9.0
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
@@ -312,27 +312,15 @@ Department of Bioinformatics, School of Basic Medical Sciences, Southern Medical
 ## [8] methods   base     
 ## 
 ## other attached packages:
-## [1] seqmagick_0.1.1     muscle_3.28.0       Biostrings_2.54.0  
+## [1] seqmagick_0.1.2     muscle_3.28.0       Biostrings_2.54.0  
 ## [4] XVector_0.26.0      IRanges_2.20.1      S4Vectors_0.24.1   
 ## [7] BiocGenerics_0.32.0 magrittr_1.5       
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] Rcpp_1.0.3                  knitr_1.26                 
-##  [3] GenomicRanges_1.38.0        zlibbioc_1.32.0            
-##  [5] GenomicAlignments_1.22.1    BiocParallel_1.20.0        
-##  [7] lattice_0.20-38             rlang_0.4.2                
-##  [9] stringr_1.4.0               GenomeInfoDb_1.22.0        
-## [11] tools_3.6.1                 grid_3.6.1                 
-## [13] SummarizedExperiment_1.16.0 Biobase_2.46.0             
-## [15] xfun_0.11                   matrixStats_0.55.0         
-## [17] htmltools_0.4.0             yaml_2.2.0                 
-## [19] digest_0.6.23               Matrix_1.2-17              
-## [21] GenomeInfoDbData_1.2.2      prettydoc_0.3.1            
-## [23] bitops_1.0-6                RCurl_1.95-4.12            
-## [25] evaluate_0.14               rmarkdown_1.18             
-## [27] DelayedArray_0.12.0         stringi_1.4.3              
-## [29] downloader_0.4              compiler_3.6.1             
-## [31] Rsamtools_2.2.1</code></pre>
+##  [1] Rcpp_1.0.3      digest_0.6.23   evaluate_0.14   zlibbioc_1.32.0
+##  [5] rlang_0.4.2     stringi_1.4.3   rmarkdown_2.0   tools_3.6.2    
+##  [9] downloader_0.4  stringr_1.4.0   prettydoc_0.3.1 xfun_0.11      
+## [13] yaml_2.2.0      compiler_3.6.2  htmltools_0.4.0 knitr_1.26</code></pre>
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>
