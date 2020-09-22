@@ -7,13 +7,13 @@ library(magrittr)
 library(Biostrings)
 library("seqmagick")
 
-## -----------------------------------------------------------------------------
-tmpgb <- tempfile(fileext = '.gb')
-tmpfa <- tempfile(fileext = '.fa')
-download_genbank(acc='AB115403', format='genbank', outfile=tmpgb)
-download_genbank(acc='AB115403', format='fasta', outfile=tmpfa)
-readLines(tmpgb)[1:10]
-readLines(tmpfa)
+## ----eval=FALSE---------------------------------------------------------------
+#  tmpgb <- tempfile(fileext = '.gb')
+#  tmpfa <- tempfile(fileext = '.fa')
+#  download_genbank(acc='AB115403', format='genbank', outfile=tmpgb)
+#  download_genbank(acc='AB115403', format='fasta', outfile=tmpfa)
+#  ## readLines(tmpgb)[1:10]
+#  ## readLines(tmpfa)
 
 ## ----eval=F-------------------------------------------------------------------
 #  fa_file <- system.file("extdata/HA.fas", package="seqmagick")

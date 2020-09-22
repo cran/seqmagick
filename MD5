@@ -1,7 +1,7 @@
-729a0f3090d6ee1fca6eb706ac6c5ce4 *DESCRIPTION
+7cde7d38350ff67c6aeb1be9cfb99fbb *DESCRIPTION
 d364481564119f8705d918c4142065c6 *NAMESPACE
 f1d4ad7805195d51d23ca94a9bd9fefa *NEWS.md
-be2a25f727afa2bb9dc3fd8ba250f947 *R/NCBI.R
+ceea69699406bc7cd80a6314e675842c *R/NCBI.R
 7f3cab6337ff56da5aa9cfb19e11c3da *R/aln.R
 c7f68e159e30fe20c85ec6cde039d232 *R/bam2DNAStringSet.R
 705c1797a0d28aac2df09f0d1d05341a *R/consensus.R
@@ -20,10 +20,12 @@ af43b0c6b025d88fc17641a185bd11d4 *R/renameTXT.R
 bdc2380002531ef1da2325a0418e0c15 *R/seqlen.R
 dca1ff47d1156048df3d001734738174 *R/utilities.R
 47616fe140ee1e2e12ff193b6658c38d *R/write.R
-37c5109b47b56d8bdc39282cbf230ae3 *build/vignette.rds
-69d78d17becb224e825255eae75ae364 *inst/doc/seqmagick.R
-291cb3be3c8aa175c8a1fb1f3ebe0fda *inst/doc/seqmagick.Rmd
-67e9d6ab0d222017722d2ada5cdfb1d6 *inst/doc/seqmagick.html
+6f9eebdcfc97241273f7c78057de5d7e *build/vignette.rds
+0ab8f6a021a48a6adfd905ac08a612e8 *inst/doc/seqmagick.R
+d1eab819cefa5b488424c74849972b9b *inst/doc/seqmagick.Rmd
+c435b77959a9dce863e98cbfcecef347 *inst/doc/seqmagick.html
+86d45b02d7ac13a198998df915636469 *inst/extdata/AB115403.fa
+c20a9ec9f005efffc27bc545c68b1851 *inst/extdata/AB115403.gb
 b28bc1fb72a1f9d0468bc32cc1c1e6a7 *inst/extdata/HA.fas
 3476fc1fa9db763670acb64323b687eb *inst/extdata/HA.phy
 9c54169deadf624d7ae4cca408860fba *man/bam2DNAStringSet.Rd
@@ -33,7 +35,7 @@ c25a89a41c67620d3a5f33504ffc3f8a *man/bs_filter.Rd
 2ab8a47949a4fc0c6c13f7a2bd964369 *man/bs_hamming.Rd
 031427e5519b921cc13de27dac394709 *man/bs_rename.Rd
 b9d6406ec78fa77a9dd4ec29caf78270 *man/consensus.Rd
-4df42c98a0039a1141d25d9ffa4224e9 *man/download_genbank.Rd
+9bcf66879572a71d97ca029ee6e7e01e *man/download_genbank.Rd
 53af7e4c5bebcd262fec44950d18d8cf *man/fa_combine.Rd
 cf0edbaef6e1b9949b44441a170b273a *man/fa_conversion.Rd
 528147393e3cd8a6f75f71aeb95520b2 *man/fa_filter.Rd
@@ -48,5 +50,5 @@ babd9ca1c39da2d725fbe258a652784f *man/phy_write.Rd
 9c09224cd55169d632b6ade3843aa68a *man/renameTXT.Rd
 48fe7cc8caf0864829f51dce34f62907 *man/replaceInside.Rd
 d07007d61183d5ea425f02a0b6893c28 *man/seqlen.Rd
-291cb3be3c8aa175c8a1fb1f3ebe0fda *vignettes/seqmagick.Rmd
+d1eab819cefa5b488424c74849972b9b *vignettes/seqmagick.Rmd
 68b329da9893e34099c7d8ad5cb9c940 *vignettes/seqmagick.bib
