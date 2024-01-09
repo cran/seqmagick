@@ -1,3 +1,8 @@
+# seqmagick 0.1.7
+
++ `clw_read()` and `sth_read()` to parse CLUSTAL and STOCKHOLM outputs (2023-12-19, Tue)
++ `mega_read()` to parse various file types of MEGA sequence alignment (2023-12-18, Mon)
+
 # seqmagick 0.1.6
 
 + `gb_read()` to parse 'GenBank' file (2023-06-27, Tue)
